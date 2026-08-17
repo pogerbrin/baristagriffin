@@ -22,9 +22,10 @@ body {
 }
 
 .main {
+    /* background-color: red; */
+
     padding-top: 50px;
     max-width: 80%;
-    /* background-color: red; */
     margin: 0 auto;
 
     display: flex;
@@ -37,7 +38,8 @@ body {
 
 .griffin {
     /* background-color: aqua; */
-    min-width: 40%;
+
+    min-width: 30%;
 
     display: flex;
     justify-content: flex-end;
@@ -46,11 +48,12 @@ body {
 
 .griffin img {
     max-width: 20vh;
-    padding-right: 80px;
+    margin: 0 auto;
 }
 
 .info {
     /* background-color: chocolate; */
+
     min-width: 40%;
 }
 
@@ -59,8 +62,9 @@ body {
     font-size: 45px;
 }
 
-.info p, li {
-    font-size: 15px;
+.info p,
+li {
+    font-size: 2.5vh;
 }
 
 .info li {

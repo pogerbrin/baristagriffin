@@ -1,5 +1,24 @@
-body {
+/* body {
     background-image: url(bg.png);
     background-repeat: no-repeat;
     background-size: contain;
+} */
+.mobile-bg-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* svh (small viewport height) prevents shifting when mobile browser bars hide/show */
+  height: 100svh; 
+  z-index: -1;
+  
+  /* 2. Core background centering and scaling properties */
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  /* 3. Hardware acceleration to prevent mobile stuttering/flicker */
+  will-change: transform;
+  transform: translateZ(0);
 }

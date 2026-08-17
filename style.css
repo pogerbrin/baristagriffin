@@ -59,10 +59,8 @@ body {
     font-size: 45px;
 }
 
-.info p,
-li {
-    font-size: 20px;
-    ;
+.info p, li {
+    font-size: 15px;
 }
 
 .info li {

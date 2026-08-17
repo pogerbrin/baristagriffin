@@ -1,24 +1,70 @@
-/* body {
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #484848;
+}
+
+.mobile-bg-cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100svh;
+    z-index: -1;
+
     background-image: url(bg.png);
     background-repeat: no-repeat;
-    background-size: contain;
-} */
-.mobile-bg-cover {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  /* svh (small viewport height) prevents shifting when mobile browser bars hide/show */
-  height: 100svh; 
-  z-index: -1;
-  
-  /* 2. Core background centering and scaling properties */
-  background-image: url(bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  
-  /* 3. Hardware acceleration to prevent mobile stuttering/flicker */
-  will-change: transform;
-  transform: translateZ(0);
+    background-position: center center;
+    background-size: cover;
+
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.main {
+    padding-top: 50px;
+    max-width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+
+.griffin {
+    /* background-color: aqua; */
+    min-width: 40%;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.griffin img {
+    max-width: 20vh;
+    padding-right: 80px;
+}
+
+.info {
+    /* background-color: chocolate; */
+    min-width: 40%;
+}
+
+.info h1 {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.info p,
+li {
+    font-size: 20px;
+    ;
+}
+
+.info li {
+    line-height: 39px
 }

@@ -5,11 +5,14 @@ body {
 }
 
 html {
-    height: 100vh; /* set viewport constraint */
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
     min-height: 100%; /* enforce height */
 }
 
-.mobile-bg-cover {
+/* .mobile-bg-cover {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,7 +28,7 @@ html {
 
     will-change: transform;
     transform: translateZ(0);
-}
+} */
 
 .main {
     /* background-color: red; */

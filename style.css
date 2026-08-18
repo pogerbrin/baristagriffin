@@ -8,6 +8,7 @@ body {
     background-position: center center;
     background-size: cover;
     min-height: 80vh;
+    position: fixed;
 }
 
 .mobile-bg-cover {

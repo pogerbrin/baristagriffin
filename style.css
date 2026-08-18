@@ -12,7 +12,7 @@ body {
     height: 100svh;
     z-index: -1;
 
-    background-image: url(bg.png);
+    background-image: url(bg3.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
@@ -47,7 +47,7 @@ body {
 }
 
 .griffin img {
-    max-width: 20vh;
+    max-width: 18vh;
     margin: 0 auto;
 }
 
@@ -59,12 +59,12 @@ body {
 
 .info h1 {
     font-weight: 400;
-    font-size: 45px;
+    font-size: 42px;
 }
 
 .info p,
 li {
-    font-size: 2.5vh;
+    font-size: 2.3vh;
 }
 
 .info li {

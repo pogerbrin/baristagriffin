@@ -9,7 +9,8 @@ html {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
-    min-height: 100%; /* enforce height */
+    min-height: 100%; 
+    background-attachment: fixed;
 }
 
 /* .mobile-bg-cover {

@@ -10,7 +10,7 @@ html {
     background-position: top right;
     background-size: cover;
     min-height: 100%; 
-    background-attachment: fixed;
+    background-attachment: scroll, fixed;
 }
 
 /* .mobile-bg-cover {

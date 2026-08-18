@@ -4,16 +4,7 @@ body {
     color: #484848;
 }
 
-html {
-    background-image: url(bg.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: cover;
-    min-height: 100%; 
-    background-attachment: scroll, fixed;
-}
-
-/* .mobile-bg-cover {
+.mobile-bg-cover {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,11 +16,13 @@ html {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
+    min-height: 100%;
+    background-attachment: scroll, fixed;
     -webkit-background-size: cover;
 
     will-change: transform;
     transform: translateZ(0);
-} */
+}
 
 .main {
     /* background-color: red; */
